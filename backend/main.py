@@ -5,7 +5,7 @@ import os
 import pandas as pd
 from typing import Optional
 
-from .utils import feature_engineering_pipeline
+from utils import feature_engineering_pipeline
 
 class TransactionData(BaseModel):
     amount: float
