@@ -8,6 +8,7 @@ from typing import Optional
 from utils import feature_engineering_pipeline
 
 class TransactionData(BaseModel):
+    transaction_id: str  # <-- Add this right at the top
     amount: float
     description: str
     payment_method: str
